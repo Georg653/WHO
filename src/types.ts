@@ -29,4 +29,9 @@ export interface Product {
   sizes: string[];
   /** Bullet-style spec lines: material, fit, dimensions, weight, etc. */
   details: string[];
+
+  /** Размер, который нужно выбрать по умолчанию при открытии товара —
+   * например, когда товар открыли через поиск по артикулу с размером
+   * (WHO-HD-001-XL). Необязательное поле, задаётся только "на лету". */
+  initialSize?: string;
 }
