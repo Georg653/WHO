@@ -43,7 +43,7 @@ export const products: Product[] = [
     id: "tshirt-02",
     imageFolder: "tshirt-02",
     imageCount: 4,
-    name: "Футболка WHO «KNIGHT»",
+    name: "Футболка WHO «VICTORIOUS»",
     sku: "WHO-TS-002",
     category: "Футболка",
     description: "Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you. Deuteronomy 31:6",
